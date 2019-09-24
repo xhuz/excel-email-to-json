@@ -19,7 +19,7 @@ class XLSXEmailToJson {
         const reg = /([A-Za-z0-9_\-.]+@[A-Za-z0-9_\-]+\.[A-Za-z._\-]+)/g;
         for(const i in obj) {
             const match = obj[i].match(reg);
-            result.push(...match);
+            match && result.push(...match);
         }
         return result;
     }
