@@ -1,0 +1,22 @@
+{
+  "name": "excel-email-to-json",
+  "version": "1.0.0",
+  "description": "读取excel中的email转换成json数组,并写入文件",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhuz/excel-email-to-json.git"
+  },
+  "keywords": ["excel", "email"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhuz/excel-email-to-json/issues"
+  },
+  "homepage": "https://github.com/xhuz/excel-email-to-json#readme",
+  "dependencies": {
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {}
+}
