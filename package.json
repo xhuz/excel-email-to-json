@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/xhuz/excel-email-to-json#readme",
   "dependencies": {
-    "xlsx": "^0.15.1"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {}
 }
